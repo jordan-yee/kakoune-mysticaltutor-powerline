@@ -2,7 +2,7 @@
 
 A port of the [Kakoune Mystical Tutor colorscheme](https://github.com/caksoylar/kakoune-mysticaltutor) for the [powerline plugin](https://github.com/andreyorst/powerline.kak).
 
-![mystical-tutor-powerline-example](https://user-images.githubusercontent.com/13305768/87744059-b518f900-c7a7-11ea-8999-31239e0c630c.png)
+![mystical tutor powerline example](https://user-images.githubusercontent.com/13305768/87822189-4a5ed080-c82e-11ea-8967-6ac935e63e74.png)
 
 ## Installation
 
