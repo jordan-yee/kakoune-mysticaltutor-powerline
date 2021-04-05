@@ -10,7 +10,15 @@ First, install the [powerline plugin](https://github.com/andreyorst/powerline.ka
 
 Using [plug.kak](https://github.com/andreyorst/plug.kak):
 ```
-plug "jordan-yee/kakoune-mysticaltutor-powerline" defer powerline %{
+plug "andreyorst/powerline.kak" defer powerline %{
+    set-option global powerline_ignore_warnings true
+    powerline-separator global none
+} config %{
+    powerline-start
+}
+
+# NOTE: Make sure this comes after the powerline configuration!
+plug "jordan-yee/kakoune-mysticaltutor-powerline" defer powerline_mysticaltutor %{
     powerline-theme mysticaltutor
 }
 ```
